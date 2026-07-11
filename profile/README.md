@@ -1,3 +1,8 @@
+<picture>
+  <source media='(prefers-reduced-motion: reduce)' srcset='https://raw.githubusercontent.com/frontier-infra/.github/main/profile/assets/frontier-infra-puzzle-transparent.png'>
+    <img src='https://raw.githubusercontent.com/frontier-infra/.github/main/profile/assets/frontier-infra-machine-assembly.gif' alt='Frontier Infra — the stack assembling' width='100%'>
+</picture>
+
 # frontier-infra
 
 **Open-source primitives for AI-first applications.**
