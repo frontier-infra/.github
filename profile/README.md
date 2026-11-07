@@ -60,6 +60,7 @@ The Machine is the govern tier everything else plugs into. The rest of Frontier 
 - **[Maintainer Gate Blueprint](https://github.com/frontier-infra/Maintainer-Gate-Blueprint)** (govern) — reusable ops model for repos where AI agents work in parallel: patrol loops, PR quality gates, machine-checkable handoffs.
 - **[Agent Control Plane / AAR](https://github.com/frontier-infra/agentcontrolplane)** (prove) — Agent Attestation Record: portable, signed, ground-truthed proof of what an agent actually did.
 - **[Roundtable](https://github.com/frontier-infra/roundtable)** (decide) — convene a council of frontier models — Grok, Codex/OpenAI, GLM, MiniMax, Claude, Gemini — from the CLI or any MCP harness.
+- **[Titanwarden](https://github.com/frontier-infra/titanwarden)** (protect): a local secret broker for AI agents. Agents use secrets but never see them, and every use is audited. Apache 2.0, macOS and Linux. Guide at [titanwarden.com](https://www.titanwarden.com).
 
 See it all running together in **[stack-demo](https://github.com/frontier-infra/stack-demo)** — a live board whose every claim links a cryptographic receipt you can verify yourself.
 
@@ -83,8 +84,9 @@ Writing about the agentic-first future at **[Frontier Operations](https://jasonb
 
 ### Related Projects
 
-- **[Argent OS](https://github.com/webdevtodayjason)** — AI agent operating system. AVL is the substrate Argent OS uses to navigate any host application.
-- **[AInode.dev](https://ainode.dev)** — AI-native development platform.
+- **[KrakenOS](https://krakenos.net)**: agentic AI for your business, by Titanium Computing. Every project gets its own lead and its own team of AI workers, with one person at the top.
+- **[Krux](https://krux.sh)**: the multiplexer for KrakenOS. Sessions, agents, shells and hosts, split and supervised from one surface. In beta, formerly KrakenOS Code.
+- **[AINode](https://ainode.dev)**: turns an NVIDIA GPU box into a complete local AI platform. Chat, an OpenAI-compatible API, fine-tuning and multi-node, one command per box.
 
 ---
 
@@ -96,7 +98,7 @@ We're looking for early adopters, framework implementations, and real-world feed
 - **Build an adapter** for SvelteKit, Remix, Nuxt, or Rails
 - **Write an agent** that consumes `.agent` URLs natively
 - **Try the discipline layer** — install ADL and Proctor in a Claude Code repo and see what they catch
-- **Join the conversation** in [Discussions](https://github.com/frontier-infra/avl/discussions)
+- **Join the conversation** in [AVL issues](https://github.com/frontier-infra/avl/issues)
 
 ---
 
